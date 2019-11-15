@@ -58,7 +58,8 @@ class App extends Component {
             key={ post.id }
             text={ post.text }
             date={ post.date }
-
+            id={ post.id }
+            updatePostFn={ this.updatePost }
             />
           ))
         }
